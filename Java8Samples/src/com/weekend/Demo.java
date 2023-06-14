@@ -15,6 +15,7 @@ class Demo
 		Iterator<String> itr = list.iterator();
 		Collections.sort(list);
 		while (itr.hasNext())
+			
 		{
 			
 			System.out.print(itr.next() + " ");
