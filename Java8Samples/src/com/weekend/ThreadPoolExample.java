@@ -18,10 +18,10 @@ public class ThreadPoolExample {
 		Iterator<Integer>iterator=hm.keySet().iterator();
 		while(iterator.hasNext())
 		{
-			 hm.put(5, "Navya");
-			// System.out.println(hm.get(iterator.next()));
+			hm.put(5,"Shilpa");
+			 Integer key = iterator.next();
+	 System.out.println(hm.get(key));
 			 
-			
 		}
 	System.out.println(hm.entrySet());
 	

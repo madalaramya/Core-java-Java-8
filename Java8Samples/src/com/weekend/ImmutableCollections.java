@@ -15,12 +15,12 @@ public class ImmutableCollections {
 		
 		System.out.println(numbers);
 		numbers.add("Harshi");
-		
+		numbers.remove("Ramya");
 		
 		numbers.add("Harshi2");
 		System.out.println(unmodifiableList);
 		
-		System.out.println(unmodifiableList.add("Karthi"));
+		//System.out.println(unmodifiableList.add("Karthi"));
 				
 	}
 }

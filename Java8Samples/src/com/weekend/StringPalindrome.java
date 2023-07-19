@@ -1,5 +1,9 @@
 package com.weekend;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class StringPalindrome {
 	
 	public static boolean isPalindrome(String s)
@@ -23,6 +27,18 @@ public static void main(String[] args) {
     
 	System.out.println(reverse);
 	System.out.println(isPalindrome("Nin"));
+	
+	//3rd way
+	List<String> palindrome=Arrays.asList("CAT","RAR","SHAT","RADAR");
+	List<String> ispal=palindrome.stream().filter(StringPalindrome::isPalindromeCheck).collect(Collectors.toList());
+	System.out.println(ispal);
+	
 }
-
+public static boolean isPalindromeCheck(String s)
+{
+	StringBuffer sb=new StringBuffer(s);
+	String Reverse=sb.reverse().toString();
+	return s.equals(Reverse);
+	
+}
 }

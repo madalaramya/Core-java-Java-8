@@ -1,14 +1,23 @@
 package com.weekend;
 import java.util.*;
+import java.util.function.Supplier;
 import java.math.BigDecimal;
 
 public class ArrayExample {
 
 	public static void main(String[] args) {
 		
-		
-
-		
+		//Supplier<Integer> print=
+				List<Integer> li= Arrays.asList(2,3,5,6,9,72);
+				//Supplier<Integer> li2=li.stream().filter(x->x%2==0).forEach(System.out::printLn);
+                 List<String> li5=Arrays.asList("Ramya");
+                 
+		li5.stream().forEach(x->{
+			int count=0;
+			count++;
+			System.out.println("nvaeen"+count);
+		});
+	
 		int expression = 1 - 1 * 1/3 + 2/3 + 4/3 - 1 * 1/2;
 
 		if (expression == Math.PI/4)

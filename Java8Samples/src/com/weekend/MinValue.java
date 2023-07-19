@@ -12,6 +12,7 @@ public class MinValue {
 		List<Integer>li2=li.stream().sorted().collect(Collectors.toList());
 		System.out.println(li2.get(0));
 		
+		
 		//2nd way
 		List<Integer> li1=Arrays.asList(12,34,56,78,45,33,2,35,89);
 		OptionalInt li3=li1.stream().mapToInt(Integer::intValue).min();

@@ -22,16 +22,6 @@ public class TestMphasis {
 		  
 		  }
 		
-		TestMphasis t1=new TestMphasis();
-	
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
        List<Integer>li=Arrays.asList(17,99,78,67,101,4,9);

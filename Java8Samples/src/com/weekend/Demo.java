@@ -3,12 +3,14 @@ package com.weekend;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.function.Function;
 
 class Demo
 	
 	{
 	
 	public static void main(String[] args) {
+		
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("banana"); 
 		list.add("apple"); 
