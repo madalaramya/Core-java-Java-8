@@ -1,5 +1,6 @@
 package com.weekend;
 
+import java.text.Format;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -14,6 +15,10 @@ public  class  ExtendsAbstractClas extends AbstractTest {
 		LocalDateTime locatdate=LocalDateTime.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy mmss");
 		String formatter1=locatdate.format(formatter);
+		
+		LocalDateTime ldt=LocalDateTime.now();
+		DateTimeFormatter formatter2=DateTimeFormatter.ofPattern("yyyy-MM-dd");
+		System.out.println("Test"+ldt.format(formatter2));
 		System.out.println(formatter1);
 		System.err.println(locatdate);
 		AbstractTest ebc=new ExtendsAbstractClas();

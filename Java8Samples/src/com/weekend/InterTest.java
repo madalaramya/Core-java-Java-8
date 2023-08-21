@@ -29,7 +29,7 @@ package com.weekend;
 	    }
 	  
 	    // From Java 9 onwards, interfaces can have private methods
-	    private static void privateMethod() {
+	    static void privateMethod() {
 	        System.out.println("Private method");
 	    }
 

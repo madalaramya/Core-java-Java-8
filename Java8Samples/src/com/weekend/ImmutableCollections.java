@@ -20,7 +20,10 @@ public class ImmutableCollections {
 		numbers.add("Harshi2");
 		System.out.println(unmodifiableList);
 		
-		//System.out.println(unmodifiableList.add("Karthi"));
-				
+		I1 Inter=(s1,s2 )->{
+			System.out.println("Executing myAbstractMethod"+s1.length()+s2.length());
+		};
+		
+		Inter.print("Test","Test2");		
 	}
 }

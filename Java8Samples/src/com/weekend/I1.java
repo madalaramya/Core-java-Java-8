@@ -4,8 +4,7 @@ package com.weekend;
 public interface I1 {
 	
 	
-	public void print(String s);
-	
+	public abstract void print(String s1,String s2);
 	
 	
 

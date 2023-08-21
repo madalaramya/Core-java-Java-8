@@ -2,7 +2,7 @@ package com.weekend;
 
 public class InvalidAgeCustomException {
 	
-	 static void validate(int age) throws InvalidAgeException {
+	 public static void validate(int age) throws InvalidAgeException {
 		// TODO Auto-generated method stub
 		 if(age<18) 
 		 {

@@ -10,8 +10,6 @@ public static void main(String[] args) {
 	
 LocalDateTime ldt=LocalDateTime.now();
 DateTimeFormatter dtf=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:MM:SS");
-System.out.println(ldt.format(dtf));
-	
+System.out.println(ldt.format(dtf));	
 }
-
 }

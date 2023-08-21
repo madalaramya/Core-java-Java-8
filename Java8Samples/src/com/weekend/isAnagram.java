@@ -16,7 +16,7 @@ public class isAnagram {
 		Arrays.sort(c1);
 		Arrays.sort(c2);
 		System.out.println(c1);
-		if(c1.toString().equals(c2.toString()))
+		if(Arrays.equals(c1,c2))
 		{
 			System.out.println("Given Strings are anagramm");
 		}

@@ -12,6 +12,11 @@ public class EvenNOddByConsumer {
 		 Consumer<Integer> printOddNumbers=n->System.out.println("Odd Numbers"+n);
 		 numbers.stream().filter(n->n%2==0).forEach(printEvenNumbers);
 		 numbers.stream().filter(n->n%2!=0).forEach(printOddNumbers);
+		 List<Integer> li=Arrays.asList(12,23,52,84,12,6);
+
+		 Consumer<Integer> evenNumbers=n->System.out.println("EvenNumbers"+n);
+		 Consumer<Integer> oddNumbers=n->System.out.println("OddNumbers"+n);
+		 li.stream().filter(n->n%2==0).forEach(evenNumbers);
 		 
 	}
 
